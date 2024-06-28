@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Kegiatan PARPRASI</title>
+</head>
+<body>
+    <style>
+          /* Global Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        /* Main Content Styles */
+        .main-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .main-content img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .main-content .text {
+            flex: 1;
+            padding: 0 20px;
+        }
+
+        .main-content h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .main-content p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+        
+        /* Basic button styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Blue color, you can change this */
+  color: #fff; /* White text */
+  text-decoration: none; /* Remove underline from anchor tag */
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover state */
+.button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Optional: Active state */
+.button:active {
+  transform: translateY(1px); /* Move button down slightly on click */
+}
+
+    </style>
+    <link
+      rel="stylesheet"
+      href="style.css"
+      type="text/css"
+      media="all"
+    />
+   <body>
+        </div>
+    </div>
+        <header>
+        <div class="container">
+        <div class="text">
+               <div class="container">
+            <div class="navbar">
+    <button class="open-button" onclick="toggleNav()">☰ Click to Open The Sidebar</button>
+</div>
+
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="toggleNav()">×</a>
+    <a href="index.html">Home</a>
+    <a href="tentang.html">About</a>
+    <a href="imagekeg.html">Galeri Keg.</a>
+    <a href="https://example.com">Pendaftaran</a>
+</div>
+<p>--------------------------</p>
+        <h1>Galeri Kegiatan</h1>
+        </header>
+        <center>
+        <div class="container main-content">
+        <div class="text">
+        <p style="font-size: 1.1em">
+            Inilah beberapa galeri kegiatan kami selama beberapa waktu
+        </p>
+        <p><img src="persiapanperjusa.jpg" alt="" width="250" height="300"></p>
+        <p>Persiapan Perjusa</p>
+        <p><img src="istismk2pbb.jpg" alt="" width="250" height="300"></p>
+        <p>Break Lomba SMK 2</p>
+        <p><img src="pengnomskariga.jpg" alt="" width="250" height="300"></p>
+        <p>Pengumuman Nominasi di Skariga</p>
+        <p><img src="donedemos23.jpg" alt="" width="250" height="300"></p>
+        <p>Setelah Demos 2023</p>
+        <p><img src="makbarpsk.jpg" alt="" width="250" height="300"></p>
+        <p>Makan Bersama Paskibra</p>
+        <p><img src="donepelantikan.jpg" alt="" width="250" height="300"></p>
+        <p>Selesai Pelantika naik Tingkat</p>
+        <p><img src="persiapanlombapbbt.jpg" alt="" width="250" height="300"></p>
+        <p>Persiapan Lomba PBBT</p>
+        <p><img src="donelombasmk2.jpg" alt="" width="250" height="300"></p>
+        <p>Selesai Lomba SMK 2</p>
+        <p><img src="beforelombasmk2.jpg" alt="" width="250" height="300"></p>
+        <p>Sebelum Lomba SMK 2</p>
+        <p><img src="regristskariga.jpg" alt="" width="250" height="300"></p>
+        <p>Regristrasi Skariga</p>
+        <p><img src="pensiperjusa23.jpg" alt="" width="250" height="300"></p>
+        <p>Pentas Seni Perjusa 2023</p>
+        <p>   </p>
+        <p><b>Gimana?? Minat Join bersama kami ?? yukk langsung daftar aja</b></p>
+        <a href="" class="button">Link Pendaftaran</a>
+        </center>
+    </div>
+    </div>
+    </div>
+         <style>
+       .navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar .open-button {
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 15px;
+    background-color: inherit;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.main {
+    transition: margin-left 0.5s;
+    padding: 16px;
+    margin-left: 0;
+}
+
+    </style>
+    <script>
+        function toggleNav() {
+    var sidebar = document.getElementById("mySidebar");
+    var main = document.getElementsByClassName("main")[0];
+    if (sidebar.style.width === "250px") {
+        sidebar.style.width = "0";
+        main.style.marginLeft = "0";
+    } else {
+        sidebar.style.width = "250px";
+        main.style.marginLeft = "250px";
+    }
+}
+
+    </script>
+        </body>
+        </html>
